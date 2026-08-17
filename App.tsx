@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
-import { Header } from './components/Header';
-import { FileUpload } from './components/FileUpload';
-import { JobDescriptionInput } from './components/JobDescriptionInput';
-import { AtsScoreCard } from './components/AtsScoreCard';
-import { OverviewCards } from './components/OverviewCards';
-import { SkillsBreakdown } from './components/SkillsBreakdown';
-import { SkillGapCard } from './components/SkillGapCard';
-import { SuggestionsCard } from './components/SuggestionsCard';
-import { ResumeStats } from './components/ResumeStats';
-import { ExtractedInfoCard } from './components/ExtractedInfoCard';
-import { AiInsightsCard } from './components/AiInsightsCard';
-import { Footer } from './components/Footer';
+import { Header } from './Header';
+import { FileUpload } from './FileUpload';
+import { JobDescriptionInput } from './JobDescriptionInput';
+import { AtsScoreCard } from './AtsScoreCard';
+import { OverviewCards } from './OverviewCards';
+import { SkillsBreakdown } from './SkillsBreakdown';
+import { SkillGapCard } from './SkillGapCard';
+import { SuggestionsCard } from './SuggestionsCard';
+import { ResumeStats } from './ResumeStats';
+import { ExtractedInfoCard } from './ExtractedInfoCard';
+import { AiInsightsCard } from './AiInsightsCard';
+import { Footer } from './Footer';
 
-import { AnalysisResponse } from './types/resume';
-import { SAMPLE_ANALYSIS_DATA, SAMPLE_JOB_DESCRIPTION } from './utils/sampleData';
+import { AnalysisResponse } from './resume';
+import { SAMPLE_ANALYSIS_DATA, SAMPLE_JOB_DESCRIPTION } from './sampleData';
 
 export function App() {
   const [analysisData, setAnalysisData] = useState<AnalysisResponse | null>(null);
