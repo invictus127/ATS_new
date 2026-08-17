@@ -1,7 +1,7 @@
 import React from 'react';
 import { FileText, Sparkles, Download, RefreshCw, Layers } from 'lucide-react';
-import { AnalysisResponse } from '../types/resume';
-import { exportAnalysisToPdf, exportAnalysisToJson } from '../utils/exportReport';
+import { AnalysisResponse } from './resume';
+import { exportAnalysisToPdf, exportAnalysisToJson } from './exportReport';
 
 interface HeaderProps {
   onLoadSample: () => void;
