@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Sparkles, MessageSquare, ArrowRight, Wand2, Copy, Check } from 'lucide-react';
-import { ImprovedBullet } from '../types/resume';
+import { ImprovedBullet } from './resume';
 
 interface AiInsightsCardProps {
   aiSummary?: string;
