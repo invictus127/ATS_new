@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { User, Mail, Phone, Linkedin, Github, Globe, GraduationCap, Briefcase, FolderGit2, Award, ChevronDown, ChevronUp } from 'lucide-react';
-import { ContactInfo } from '../types/resume';
+import { ContactInfo } from './resume';
 
 interface ExtractedInfoCardProps {
   contact: ContactInfo;
