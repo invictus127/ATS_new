@@ -1,4 +1,4 @@
-import { AnalysisResponse } from '../types/resume';
+import { AnalysisResponse } from './resume';
 
 export const SAMPLE_RESUME_TEXT = `
 Alex Morgan
