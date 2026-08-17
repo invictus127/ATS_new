@@ -1,6 +1,6 @@
 import React from 'react';
 import { ShieldCheck, Award, Star, Info } from 'lucide-react';
-import { AtsScoreBreakdown } from '../types/resume';
+import { AtsScoreBreakdown } from './resume';
 
 interface AtsScoreCardProps {
   score: number;
