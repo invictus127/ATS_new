@@ -1,6 +1,6 @@
 import React from 'react';
 import { Target, Code, FolderGit2, Clock, CheckCircle, FileCheck } from 'lucide-react';
-import { ResumeStats, JobDescriptionMatch } from '../types/resume';
+import { ResumeStats, JobDescriptionMatch } from './resume';
 
 interface OverviewCardsProps {
   quality: string;
