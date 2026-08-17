@@ -2,19 +2,13 @@
 export default {
   content: [
     "./index.html",
+    "./*.{js,ts,jsx,tsx}",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   darkMode: 'class',
   theme: {
     extend: {
       colors: {
-        brand: {
-          50: '#f0f7ff',
-          100: '#e0effe',
-          500: '#0066ff',
-          600: '#0052cc',
-          700: '#003d99',
-        },
         dark: {
           base: '#0B0F19',
           card: 'rgba(17, 24, 39, 0.7)',
@@ -35,16 +29,6 @@ export default {
         'glow-cyan': '0 0 20px rgba(0, 242, 254, 0.35)',
         'glow-blue': '0 0 20px rgba(79, 172, 254, 0.35)',
         'glow-purple': '0 0 20px rgba(127, 0, 255, 0.35)',
-      },
-      animation: {
-        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-        'float': 'float 6s ease-in-out infinite',
-      },
-      keyframes: {
-        float: {
-          '0%, 100%': { transform: 'translateY(0px)' },
-          '50%': { transform: 'translateY(-10px)' },
-        }
       }
     },
   },
