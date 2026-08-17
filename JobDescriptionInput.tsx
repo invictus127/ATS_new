@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Briefcase, Sparkles, ChevronDown, ChevronUp } from 'lucide-react';
-import { SAMPLE_JOB_DESCRIPTION } from '../utils/sampleData';
+import { SAMPLE_JOB_DESCRIPTION } from './sampleData';
 
 interface JobDescriptionInputProps {
   jobDescription: string;
