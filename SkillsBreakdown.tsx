@@ -1,6 +1,6 @@
 import React from 'react';
 import { Check, Code, Layers, Wrench, Database, Cloud, UserCheck } from 'lucide-react';
-import { DetectedSkills } from '../types/resume';
+import { DetectedSkills } from '.resume';
 
 interface SkillsBreakdownProps {
   skills: DetectedSkills;
