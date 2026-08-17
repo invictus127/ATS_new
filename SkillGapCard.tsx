@@ -1,6 +1,6 @@
 import React from 'react';
 import { AlertTriangle, CheckCircle, XCircle, Target } from 'lucide-react';
-import { JobDescriptionMatch } from '../types/resume';
+import { JobDescriptionMatch } from './resume';
 
 interface SkillGapCardProps {
   jdMatch?: JobDescriptionMatch;
