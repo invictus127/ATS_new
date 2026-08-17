@@ -1,6 +1,6 @@
 import React from 'react';
 import { Lightbulb, CheckCircle2, AlertCircle, TrendingUp } from 'lucide-react';
-
+import { SuggestionItem } from './resume';
 interface SuggestionsCardProps {
   suggestions: string[];
 }
